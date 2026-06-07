@@ -1,0 +1,15 @@
+[package]
+name = "segment-tree-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["SuperInstance"]
+description = "Segment tree with point updates, range queries (sum/min/max/gcd), and lazy propagation"
+license = "MIT"
+repository = "https://github.com/SuperInstance/segment-tree-rs"
+keywords = ["segment-tree", "data-structure", "range-query", "algorithms"]
+categories = ["data-structures", "algorithms"]
+readme = "README.md"
+
+[lib]
+name = "segment_tree"
+path = "src/lib.rs"
